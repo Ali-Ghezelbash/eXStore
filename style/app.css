@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Ebrima";
+    src: local("Ebrima");
+}
+
+:root {
+    --primary-color: #3B44F6;
+    --light-primary-color: #898ef9;
+}
+
+* {
+    font-family: "Ebrima";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo--first {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo--second {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0);
+}
+
+.navbar--center {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+}
+
+.link-navbar {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link-navbar:hover {
+    color: var(--primary-color);
+}
+
+.btn-primary {
+    display: inline-flex;
+    width: 90px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-primary-color);
+    border-color: var(--light-primary-color);
+}
+
+.btn-secondary {
+    display: inline-flex;
+    width: 90px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    border-color: var(--light-primary-color);
+    color: var(--light-primary-color);
+}
+
+.header {
+    background-image: url("../imgs/banner\ promotion.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.header__content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+    margin-top: 12rem;
+    /* background-color: aqua; */
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+.header__text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: calc(100% - 136px);
+    padding-left: 2rem;
+}
+
+.header__arow{
+    cursor: pointer;
+}
+
+.header__slider{
+    display: flex;
+    gap: 0.3rem;
+    align-self: center;
+    position: absolute;
+    top: 90%;
+}
+
+.slider__point{
+    border-radius: 100%;
+    background-color: #898ef979;
+    height: 0.6rem;
+    width: 0.6rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WhyeXStore{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 70px;
+}
+
+.WhyeXStore__title{
+    width: 473px;
+    align-self: center;
+}
+
+.WhyeXStore__cards{
+    display: flex;
+    gap: 80px;
+    align-self: center;
+}
+
+.WhyeXStore__card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.WhyeXStore__card--text{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
